@@ -33,12 +33,12 @@ author:
   location: 
   email: 
   social_links:
-    - name: linkedIn 
+    - name: github
+      url: https://github.com/SFL012
+    - name: linkedin 
       url: https://www.linkedin.com/in/sf012/
     - name: twitter
       url: https://twitter.com/Shaofei_Li
-    - name: github
-      url: https://github.com/SFL012
 
 
 home:
