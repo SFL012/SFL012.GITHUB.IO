@@ -33,15 +33,16 @@ author:
   location: 
   email: 
   social_links:
-    - name: linkedin  
-      url: https://www.linkedin.com/in/shaofeil
     - name: twitter
       url: https://twitter.com/Shaofei_Li
+    - name: linkedin  
+      url: https://www.linkedin.com/in/shaofeil
+    - name: github  
+      url: https://github.com/SFL012
 
 home:
   section1: <h1>Shaofei Li</h1>
   section2: <h2>Mens et Manus</h2>
-  section3: <div class="social-links"><a class="ico-github btn" href="https://github.com/SFL012" title="GitHub"></a></div>
 
 blog:
   cc_license: http://creativecommons.org/licenses/by-sa/4.0/ # A link to CC License of your choice.
