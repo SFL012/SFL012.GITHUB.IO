@@ -5,7 +5,7 @@ description: "Investigated the allocation of Hill-Burton funding across states."
 categories: [Econometrics]
 tags: [Stata, Health Econometrics]
 redirect_from:
-  - /2015/02/02/
+  - /2017/02/02/
 ---
 
 ## Econometrics
