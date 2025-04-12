@@ -8,7 +8,7 @@ redirect_from:
   - /2018/04/29/
 ---
 
-## Financial Analysis - Exxon Mobil Corp
+## Financial Analysis - Exxon Mobil Corp.
 
 
 1Q was another tough result for XOM, with EPS/CFO both missing my model and lower CAPEX not enough to save the day, given the expectation of a big rest of the year ramp. As a result, the stock was down ~4% (after being down ~5% on 4Q EPS day, and S&P 500 +3%). Upstream production came in light, declining >6% y/y, due to one-time factors, but also PSCs, divestitures, and base decline rates. While management did not rule out buybacks, my estimate that the dividend coverage breakeven could trend from mid-$50s Brent in 2018 to mid-$60s in 2019-20 makes this seem like a challenge. I lower my Dec-18 price target to $81 (from $83) and remain Neutral.
@@ -57,4 +57,4 @@ The primary downside risks to my price target and Neutral rating include:
 - Balance sheet re-levered for an expensive acquisition.
 
 ### Disclaimer
-The information contained herein does not constitute investment advice or an offer to sell or the solicitation of any offer to buy any securities of Exxon Mobil Corp or any other security.
+The information contained herein does not constitute investment advice or an offer to sell or the solicitation of any offer to buy any securities of Exxon Mobil Corp. or any other security.
