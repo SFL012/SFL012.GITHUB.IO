@@ -56,7 +56,7 @@ I used the MNIST dataset (60,000 training images and 10,000 test images), a benc
 All experiments were conducted on a CUDA-enabled GPU for efficient parallel processing.
 
 ### Results
-- The initial accuracy is **97.9600%** after 45 epoch.
+- The initial accuracy is **97.9600%** after 45 epochs.
 
 ```python
    Extracting MNIST_data/train-images-idx3-ubyte.gz
@@ -66,7 +66,7 @@ All experiments were conducted on a CUDA-enabled GPU for efficient parallel proc
    The accuracy is 0.9796000123023987 after 45 epoch with learning rate 0.001 and batch size 100.
 ```
 
-- The final accuracy is **99.0100%** after 20 epoch.
+- The final accuracy is **99.0100%** after 20 epochs.
 
 ```python
 Extracting MNIST_data/train-images-idx3-ubyte.gz
@@ -77,4 +77,4 @@ The final accuracy on test set is 99.0100%.
 ```
 
 ### Conclusion
-Both frameworks achieved high accuracy with GPU acceleration, demonstrating their capability for feature extraction and data processing. Future explorations could focus on scaling these frameworks to more complex datasets and applications.
+Both frameworks enabled effective feature extraction and high classification performance. PyTorch offered faster prototyping, while TensorFlow stood out for deployment-readiness. Future work will explore larger datasets like CIFAR-100 and use advanced architectures like Variational Autoencoders.
