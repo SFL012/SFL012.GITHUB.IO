@@ -40,8 +40,7 @@ author:
 
 home:
   section1: <h1></h1>
-  section2: <div class="no-uppercase custom-title">e<sup>i(2π)</sup> = 1</div>
-
+  section2: e<sup>i(2π)</sup> = 1
 blog:
   cc_license: http://creativecommons.org/licenses/by-sa/4.0/ # A link to CC License of your choice.
   cc_license_image: /assets/images/theme/cc-by-sa.png # An image of your CC License. 
