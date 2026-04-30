@@ -2,10 +2,3 @@
 layout: home
 ---
 
-<script>
-  // 这是一个黑科技：如果主题不让你改 HTML 头部，我们就用 JS 动态把样式注入进去
-  var link = document.createElement('link');
-  link.rel = 'stylesheet';
-  link.href = '{{ "/assets/css/style.css" | relative_url }}';
-  document.getElementsByTagName('head')[0].appendChild(link);
-</script>
