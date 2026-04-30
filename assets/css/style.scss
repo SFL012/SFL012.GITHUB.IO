@@ -1,15 +1,3 @@
----
----
-
-@import "simple-texture";
-
-/* 取消大小写 */
-.no-uppercase,
-.no-uppercase * {
-  text-transform: none !important;
-}
-
-/* ⭐ 真正控制标题大小的层 */
 .headings {
   font-size: 2em !important;
   font-weight: bold !important;
@@ -17,8 +5,7 @@
   line-height: 1.2;
 }
 
-/* 确保内部内容不被压缩 */
-.headings * {
-  font-size: inherit;
-  text-transform: inherit;
+.no-uppercase,
+.no-uppercase * {
+  text-transform: none !important;
 }
