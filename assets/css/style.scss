@@ -1,11 +1,29 @@
-.headings {
-  font-size: 2em !important;
-  font-weight: bold !important;
-  text-transform: none !important;
-  line-height: 1.2;
-}
+---
+---
 
+@import "simple-texture";
+
+/* =========================
+   1. 取消大小写限制
+========================= */
 .no-uppercase,
 .no-uppercase * {
   text-transform: none !important;
+}
+
+/* =========================
+   2. ⭐ 关键修复：真正控制字体的层级
+   theme 实际使用的是 h1
+========================= */
+.headings h1 {
+  font-size: 2.2rem !important;  /* 👉 改这里控制大小 */
+  font-weight: 700 !important;
+  line-height: 1.2 !important;
+  text-transform: none !important;
+  margin: 0;
+}
+
+/* 防止 theme 缩放内部 span/sup */
+.headings h1 * {
+  font-size: inherit !important;
 }
