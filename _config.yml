@@ -41,6 +41,8 @@ author:
 home:
   section1: <h1></h1>
   section2: <h1>e<sup>i(2π)</sup> = 1</h1>
+  section3: <div style="font-size: 2em; font-weight: bold; text-transform: lowercase !important;">e<sup>i(2π)</sup> = 1</div>
+
 blog:
   cc_license: http://creativecommons.org/licenses/by-sa/4.0/ # A link to CC License of your choice.
   cc_license_image: /assets/images/theme/cc-by-sa.png # An image of your CC License. 
