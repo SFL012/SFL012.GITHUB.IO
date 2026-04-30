@@ -4,26 +4,32 @@
 @import "simple-texture";
 
 /* ============================================================
-   ⭐ 最终方案：精准覆盖主题 h1 样式
-   原因：主题对 .headings h1 有特定的字号和 uppercase 定义
+   ⭐ 终极修复方案：针对字体本身和 CSS 逻辑进行双重覆盖
    ============================================================ */
 
 .headings h1 {
-  /* 1. 字号控制：使用 rem 确保稳定 */
+  /* 1. 强制切换字体：这是关键！ 
+     由于原主题字体可能不支持小写，我们强制使用标准的 Serif 字体（如 Times New Roman）
+     这不仅能确保小写，还能让 e, i, π 看起来更有数学公式的质感 */
+  font-family: "Times New Roman", Times, serif !important;
+
+  /* 2. 字号控制：3.5rem 约等于 56px */
   font-size: 3.5rem !important; 
   
-  /* 2. 强制小写：核心修复 */
+  /* 3. 强制小写逻辑 */
   text-transform: lowercase !important; 
-  
-  /* 3. 辅助样式：确保显示正常 */
+  font-variant: normal !important;
+
+  /* 4. 其他显示修正 */
   font-weight: 700 !important;
   line-height: 1.2 !important;
   margin: 0 !important;
   display: block !important;
 }
 
-/* 针对公式中的 sup (指数部分) 进行微调，防止它缩得太小 */
+/* 针对 sup 内部的字母也强制使用该字体并取消大写 */
 .headings h1 sup {
+  font-family: "Times New Roman", Times, serif !important;
+  text-transform: lowercase !important;
   font-size: 0.6em !important; 
-  vertical-align: super;
 }
