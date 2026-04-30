@@ -9,14 +9,16 @@
   text-transform: none !important;
 }
 
-/* ⭐ 关键修复：直接作用在 section2 */
-#section2 {
+/* ⭐ 真正控制标题大小的层 */
+.headings {
   font-size: 2em !important;
   font-weight: bold !important;
   text-transform: none !important;
+  line-height: 1.2;
 }
 
-/* 防止内部元素被 theme 缩小 */
-#section2 * {
+/* 确保内部内容不被压缩 */
+.headings * {
   font-size: inherit;
+  text-transform: inherit;
 }
