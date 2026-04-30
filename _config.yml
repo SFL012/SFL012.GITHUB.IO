@@ -40,7 +40,7 @@ author:
 
 home:
   section1: <h1></h1>
-  section2: <h1>$$ e^{i(2\pi)} = 1 $$</h1>
+  section2: <img src="https://latex.codecogs.com/svg.image?\color{White}e^{i(2\pi)}=1" alt="Euler's Identity" style="height: 1.2em; vertical-align: middle; padding-bottom: 3px;">
 
 blog:
   cc_license: http://creativecommons.org/licenses/by-sa/4.0/ # A link to CC License of your choice.
