@@ -1,14 +1,24 @@
 ---
 ---
 
-@import "simple-texture"; // 继承主题样式
+@import "simple-texture";
 
+/* 取消大小写 */
 .no-uppercase,
 .no-uppercase * {
   text-transform: none !important;
 }
 
+/* ⭐ 关键：覆盖主题的标题层（不是 div） */
 .custom-title {
-  font-size: 2em;
-  font-weight: bold;
+  font-size: 2em !important;
+  font-weight: bold !important;
+  display: block;
+}
+
+/* ⭐ 如果 section2 被 theme 包在 h1 / hero 里 */
+.hero h1 .custom-title {
+  font-size: 2em !important;
+  font-weight: bold !important;
+  text-transform: none !important;
 }
