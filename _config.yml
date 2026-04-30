@@ -39,9 +39,8 @@ author:
       url: https://github.com/SFL012
 
 home:
-  section1: <h1></h1>
-  section2: <h1>e<sup>i(2π)</sup> = 1</h1>
-  section3: <div style="font-size: 2em; font-weight: bold; text-transform: lowercase !important;">e<sup>i(2π)</sup> = 1</div>
+  section1: <h1>e<sup>i(2π)</sup> = 1</h1>
+  section2: <div style="font-size: 2em; font-weight: bold; text-transform: lowercase !important;">e<sup>i(2π)</sup> = 1</div>
 
 blog:
   cc_license: http://creativecommons.org/licenses/by-sa/4.0/ # A link to CC License of your choice.
