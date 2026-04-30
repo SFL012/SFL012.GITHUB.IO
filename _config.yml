@@ -40,7 +40,7 @@ author:
 
 home:
   section1: <h1></h1>
-  section2: <h2><span style="text-transform: none !important; display: inline-block;">e<sup>i(2π)</sup> = 1</span></h2>
+  section2: <div style="font-size: 2em; font-weight: bold; text-transform: none;">e<sup>i(2π)</sup> = 1</div>
 
 blog:
   cc_license: http://creativecommons.org/licenses/by-sa/4.0/ # A link to CC License of your choice.
