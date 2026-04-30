@@ -1,35 +1,17 @@
 ---
 ---
 
-/* 注意：不要使用 @import "theme-name"！
-   因为你是 remote_theme，GitHub 编译器找不到那个路径。
-   直接写你的覆盖样式，!important 会确保它们生效。
+/* 注意：我们不使用 @import，直接写覆盖样式。
+   为了确保生效，我们必须使用比主题更深层的 CSS 选择器。
 */
 
-/* ============================================================
-   1. 公式 (h2) 样式：放大、强制小写、数学字体
-   ============================================================ */
-.headings h2 {
-    font-size: 4rem !important; 
-    text-transform: lowercase !important; 
+/* 针对全屏滚动容器内的标题进行强制覆盖 */
+html body .section .headings h2 {
+    font-size: 5.5rem !important;  /* 故意调得非常大，确保能看到变化 */
+    text-transform: lowercase !important;
     font-family: "Times New Roman", Times, serif !important;
     font-weight: 700 !important;
+    line-height: 1.1 !important;
     display: block !important;
-    margin: 0 !important;
-    line-height: 1.2 !important;
-}
-
-/* 确保上标比例 */
-.headings h2 sup {
-    font-size: 0.6em !important;
-}
-
-/* ============================================================
-   2. 按钮样式：缩小尺寸
-   ============================================================ */
-#section1 h1 a.btn-enter {
-    font-size: 1rem !important; 
-    padding: 8px 18px !important; 
-    text-transform: none !important;
-    font-weight: 400 !important;
+    color: #333 !important; /* 确保颜色也没被覆盖 */
 }
