@@ -1,0 +1,14 @@
+---
+---
+
+@import "simple-texture"; // 继承主题样式
+
+.no-uppercase,
+.no-uppercase * {
+  text-transform: none !important;
+}
+
+.custom-title {
+  font-size: 2em;
+  font-weight: bold;
+}
