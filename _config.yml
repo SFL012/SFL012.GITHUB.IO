@@ -39,7 +39,7 @@ author:
       url: https://github.com/SFL012
 
 home:
-  section1: "e^(i(2π)) = 1 {: style='font-size: 3.5rem !important; text-transform: lowercase !important; font-family: serif;'}"
+  section1: <h1></h1>
   section2: <h2>e<sup>i(2π)</sup> = 1</h2>
 
 blog:
