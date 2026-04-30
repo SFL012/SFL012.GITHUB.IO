@@ -1,21 +1,16 @@
 ---
 ---
 
-// 1. 先引入主题原本的所有样式（确保布局不乱）
-@import "jekyll-theme-simple-texture";
+// 自动导入 remote_theme 的所有样式
+@import "{{ site.remote_theme }}";
 
-// 2. 在主题样式之后，加入你的自定义修改（实现精准覆盖）
+/* --- 你的自定义修改 --- */
 
-/* 放大公式、强制小写、更换数学字体 */
+/* 1. 放大公式、强制小写 */
 .headings h2 {
     font-size: 4rem !important; 
     text-transform: lowercase !important; 
     font-family: "Times New Roman", Times, serif !important;
     font-weight: 700 !important;
     display: block !important;
-}
-
-/* 调整公式上标比例 */
-.headings h2 sup {
-    font-size: 0.6em !important;
 }
